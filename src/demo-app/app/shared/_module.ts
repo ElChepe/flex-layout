@@ -1,15 +1,44 @@
-import { NgModule } from '@angular/core';
-import { CommonModule } from '@angular/common';
+import {NgModule} from '@angular/core';
+import {CommonModule} from '@angular/common';
+import {FlexLayoutModule} from '@angular/flex-layout';
 
-import {MaterialModule} from '@angular/material';
-import {FlexLayoutModule} from "../../../lib";
+import {
+  MdButtonModule,
+  MdCardModule,
+  MdCheckboxModule,
+  MdRadioModule
+} from '@angular/material';
 
 import {MediaQueryStatus} from './media-query-status';
 
 @NgModule({
-  imports: [CommonModule, MaterialModule, FlexLayoutModule],
-  exports: [CommonModule, MaterialModule, FlexLayoutModule, MediaQueryStatus],
-  declarations: [MediaQueryStatus],
+  exports: [
+    MdButtonModule,
+    MdCardModule,
+    MdCheckboxModule,
+    MdRadioModule
+  ]
+})
+export class MaterialDemosModule {}
+
+/**
+ * Shared ngModule used by all route-modules
+ */
+@NgModule({
+  imports: [
+    CommonModule,
+    MaterialDemosModule,
+    FlexLayoutModule
+  ],
+  exports: [
+    CommonModule,
+    MaterialDemosModule,
+    FlexLayoutModule,
+    MediaQueryStatus
+  ],
+  declarations: [
+      MediaQueryStatus
+  ]
 })
 export class SharedModule {
 }

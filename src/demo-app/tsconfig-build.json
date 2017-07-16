@@ -11,7 +11,7 @@
     "module": "commonjs",
     "moduleResolution": "node",
     "noEmitOnError": true,
-    "noImplicitAny": true,
+    "noImplicitAny": false,
     "outDir": "../../dist/packages/demo-app",
     "sourceMap": true,
     "target": "es5",
@@ -21,8 +21,7 @@
     ],
     "baseUrl": ".",
     "paths": {
-      "@angular/material": ["../../dist/packages/material/public_api"],
-      "@angular/cdk": ["../../dist/packages/cdk/public_api"]
+      "@angular/flex-layout": ["../../dist/packages/flex-layout/public_api"]
     }
   },
   "files": [

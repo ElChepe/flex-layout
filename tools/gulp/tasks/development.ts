@@ -31,8 +31,6 @@ task(':watch:devapp', () => {
   watch(join(appDir, '**/*.scss'), [':build:devapp:scss', triggerLivereload]);
   watch(join(appDir, '**/*.html'), [':build:devapp:assets', triggerLivereload]);
 
-  // Therefore when the CSS files have been changed the SCSS mixins have been refreshed and
-  // copied over. Rebuilt the theme CSS using the updated SCSS mixins.
   watch(join(libOutPath, '**/*.css'), [':build:devapp:scss', triggerLivereload]);
 });
 

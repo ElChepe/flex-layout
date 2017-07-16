@@ -9,8 +9,7 @@ import {Component} from '@angular/core';
 
     <md-card class="card-demo">
       <md-card-title><a href="https://github.com/angular/flex-layout/issues/197" target="_blank">
-        Issue #197</a>
-      </md-card-title>
+        Issue #197</a></md-card-title>
       <md-card-subtitle>Responsive Style directive should merge with default inline style:
       </md-card-subtitle>
       <md-card-content>

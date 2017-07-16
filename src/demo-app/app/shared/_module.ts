@@ -11,6 +11,9 @@ import {
 
 import {MediaQueryStatus} from './media-query-status';
 
+/**
+ * NgModule that includes all Material modules that are required to serve the demo-app.
+ */
 @NgModule({
   exports: [
     MdButtonModule,

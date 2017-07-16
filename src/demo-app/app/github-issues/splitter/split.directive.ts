@@ -5,7 +5,7 @@ import {
 
 import {SplitAreaDirective} from './split-area.directive';
 import {SplitHandleDirective} from './split-handle.directive';
-import {FlexDirective} from '../../../../lib/flexbox';
+import {FlexDirective} from '@angular/flex-layout';
 import {Subscription} from 'rxjs/Subscription';
 
 @Directive({

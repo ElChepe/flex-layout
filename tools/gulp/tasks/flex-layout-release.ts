@@ -25,8 +25,7 @@ const releasePath = join(releasesDir, 'flex-layout');
 task('flex-layout:build-release', ['flex-layout:prepare-release'], () => composeRelease('flex-layout'));
 
 /**
- * Task that will build the Flex-Layout package. It will also copy all prebuilt themes and build
- * a bundled SCSS file for theming
+ * Task that will build the Flex-Layout package.
  */
 task('flex-layout:prepare-release', sequenceTask(
   'flex-layout:build'

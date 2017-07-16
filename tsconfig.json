@@ -15,9 +15,7 @@
     "types": ["jasmine"],
     "baseUrl": ".",
     "paths": {
-      "@angular/material": ["./src/lib/public_api.ts"],
-      "@angular/cdk": ["./src/cdk/public_api.ts"],
-      "@angular/cdk/testing": ["./src/cdk/testing"]
+      "@angular/flex-layout": ["./src/lib/public_api.ts"]
     }
   },
   "include": [

@@ -20,16 +20,15 @@ System.config({
     '@angular/animations': 'node:@angular/animations/bundles/animations.umd.js',
     '@angular/animations/browser': 'node:@angular/animations/bundles/animations-browser.umd.js',
     '@angular/platform-browser': 'node:@angular/platform-browser/bundles/platform-browser.umd.js',
-    '@angular/platform-browser/animations':
-      'node:@angular/platform-browser/bundles/platform-browser-animations.umd.js',
-    '@angular/platform-browser-dynamic':
-      'node:@angular/platform-browser-dynamic/bundles/platform-browser-dynamic.umd.js',
+    '@angular/platform-browser/animations': 'node:@angular/platform-browser/bundles/platform-browser-animations.umd.js',    // tslint:disable-line:max-line-length
+    '@angular/platform-browser-dynamic': 'node:@angular/platform-browser-dynamic/bundles/platform-browser-dynamic.umd.js',  // tslint:disable-line:max-line-length
 
-    '@angular/material': 'dist/bundles/material.umd.js',
-    '@angular/cdk': 'dist/bundles/cdk.umd.js'
+    '@angular/material': 'node:@angular/material/bundles/material.umd.js',
+    '@angular/cdk': 'node:@angular/cdk/bundles/cdk.umd.js',
+    '@angular/flex-layout': 'dist/bundles/flex-layout.umd.js'
   },
   packages: {
-    // Thirdparty barrels.
+    // 3rd-Party barrels.
     'rxjs': { main: 'index' },
     // Set the default extension for the root package, because otherwise the demo-app can't
     // be built within the production mode. Due to missing file extensions.

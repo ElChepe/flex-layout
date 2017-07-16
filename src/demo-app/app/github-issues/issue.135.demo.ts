@@ -5,11 +5,8 @@ import {Component} from '@angular/core';
   selector: 'demo-issue-135',
   template: `
     <md-card class="card-demo">
-      <md-card-title>
-        <a href="https://github.com/angular/flex-layout/issues/135" target="_blank">
-          Issue#135
-        </a>
-      </md-card-title>
+      <md-card-title><a href="https://github.com/angular/flex-layout/issues/135" target="_blank">
+        Issue #135</a></md-card-title>
       <md-card-subtitle>Layout with fxFlex="auto" not restoring max-height values properly:
       </md-card-subtitle>
       <md-card-content>

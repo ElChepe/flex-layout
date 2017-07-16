@@ -9,8 +9,7 @@
     "strictNullChecks": false,
     "outDir": ".",
     "paths": {
-      "@angular/material": ["./material"],
-      "@angular/cdk": ["./cdk"]
+      "@angular/flex-layout": ["./flex-layout"]
     }
   },
   "files": [

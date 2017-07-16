@@ -27,7 +27,6 @@ const htmlMinifierOptions = {
  * @param requiredPackages Required packages that will be built before building the current package.
  */
 export function createPackageBuildTasks(packageName: string, requiredPackages: string[] = []) {
-  console.log('createPackageBuildTasks 1');
 
   // To avoid refactoring of the project the package src/lib  will map to the source path `lib/`.
   const packageRoot = join(packagesDir, packageName === 'flex-layout' ? 'lib' : packageName);

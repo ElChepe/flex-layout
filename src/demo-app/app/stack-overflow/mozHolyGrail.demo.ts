@@ -25,21 +25,21 @@ import {Component} from '@angular/core';
         in which they are presented must change. Flexbox makes this very simple
       </md-card-subtitle>
       <md-card-content>
-        <div class='containerX'>
-          <div class='colorNested box' fxLayout='column'>
+        <div class="containerX">
+          <div class="colorNested box" fxLayout="column">
             <header>header</header>
-            <div id='main' [fxLayout]='direction' fxLayout.xs='column' fxFlex
-                 (click)='toggleDirection()'>
-              <nav fxFlex='1 6 20%' fxFlexOrder fxFlexOrder.xs='2'> nav</nav>
-              <article fxFlex='3 1 60%' fxFlexOrder fxFlexOrder.xs='1'> article</article>
-              <aside fxFlex='1 6 20%' fxFlexOrder fxFlexOrder.xs='3'> aside</aside>
+            <div id="main" [fxLayout]="direction" fxLayout.xs="column" fxFlex
+                 (click)="toggleDirection()">
+              <nav fxFlex="1 6 20%" fxFlexOrder fxFlexOrder.xs="2"> nav</nav>
+              <article fxFlex="3 1 60%" fxFlexOrder fxFlexOrder.xs="1"> article</article>
+              <aside fxFlex="1 6 20%" fxFlexOrder fxFlexOrder.xs="3"> aside</aside>
             </div>
             <footer>footer</footer>
           </div>
         </div>
       </md-card-content>
-      <md-card-footer class='bottomPad'>
-        <div class='hint'>&lt;div fxLayout='{{ direction }}' fxLayout.xs='column' &gt;</div>
+      <md-card-footer class="bottomPad">
+        <div class="hint">&lt;div fxLayout="{{ direction }}" fxLayout.xs="column" &gt;</div>
       </md-card-footer>
     </md-card>
   `

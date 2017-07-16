@@ -40,9 +40,9 @@ import {Component} from '@angular/core';
 export class DemoFlexAlignSelf {
   public alignTo = 'center';
 
-  toggleAlignment () {
-      let j = ALIGN_OPTIONS.indexOf(this.alignTo);
-      this.alignTo = ALIGN_OPTIONS[ (j + 1) % ALIGN_OPTIONS.length ];
+  toggleAlignment() {
+    let j = ALIGN_OPTIONS.indexOf(this.alignTo);
+    this.alignTo = ALIGN_OPTIONS[(j + 1) % ALIGN_OPTIONS.length];
   }
 }
 

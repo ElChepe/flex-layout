@@ -13,7 +13,7 @@ export class DemosStackOverflow {
 }
 
 import {NgModule} from '@angular/core';
-import {FlexLayoutModule} from '../../../lib/module';
+import {FlexLayoutModule} from '@angular/flex-layout';
 
 import {DemoComplexColumnOrder} from './columnOrder.demo';
 import {DemoGridAreaRowSpan} from './gridArea.demo';

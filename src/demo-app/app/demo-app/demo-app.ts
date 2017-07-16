@@ -26,11 +26,12 @@ import {Component, ViewEncapsulation} from '@angular/core';
         StackOverflow,
         and CodePen.
         <span class="title" style="font-size: 0.7em; font-weight:normal;">
-            Hint: Click on any of the samples below to toggle the layout direction(s).
-          </span>
+                Hint: Click on any of the samples below to toggle the layout direction(s).
+              </span>
       </div>
     </div>
 
+    <div class="colorNested box" style="height:50px; width: 300px"></div>
     <div class="demo-content">
       <router-outlet></router-outlet>
     </div>
